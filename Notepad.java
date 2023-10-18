@@ -12,6 +12,8 @@ public class Notepad extends JFrame implements ActionListener {
      
      Notepad(){
 
+           Image icon=Toolkit.getDefaultToolkit().getImage("NoteIcon.png");
+          setIconImage(icon);
        
           
           setTitle("Notepad");
