@@ -224,7 +224,8 @@ public class Notepad extends JFrame implements ActionListener {
                    
                }
                else if(ae.getActionCommand().equals("About")){
-                    
+                     About aboutDialog = new About();
+                    aboutDialog.setVisible(true);                    
 
                }
                
